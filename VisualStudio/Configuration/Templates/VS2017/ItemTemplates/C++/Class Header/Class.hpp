@@ -1,15 +1,19 @@
 /* $safeitemname$.hpp
- * Author: Dylan O'Ceallaigh
- * $safeitemname$ description:
+ * Class description:
  *     <$safeitemname$ description goes here>
  * * */
 
 #pragma once
 
-// LIBRARY INCLUDES
-// LOCAL INCLUDES
+// INCLUDES
+#pragma region Library Includes
+#pragma endregion
 
-#ifndef CLASS_HPP
+#pragma region Local Includes
+#pragma endregion
+
+#ifndef $safeitemname$_hpp
+#define $safeitemname$_hpp
 class $safeitemname$ 
 {
 public:
@@ -93,4 +97,4 @@ private:
     // PRIMITIVES
 #pragma endregion
 };
-#endif // !CLASS_HPP
+#endif // !$safeitemname$_hpp

@@ -1,4 +1,10 @@
-#include "$safeitemname$.hpp"
+// INCLUDES
+#pragma region Library Includes
+#pragma endregion
+
+#pragma region Local Includes
+#include "../Header/$safeitemname$.hpp"
+#pragma endregion
 
 #pragma region Public Constructors & Destructor
 // DEFAULT CONSTRUCTOR
@@ -33,26 +39,26 @@
 #pragma endregion
 
 #pragma region Protected Virtual Methods
-    // PURE VIRTUAL METHODS
-    // VIRTUAL METHODS
+// PURE VIRTUAL METHODS
+// VIRTUAL METHODS
 #pragma endregion
 
 #pragma region Protected Non-virtual Methods
-    // NON-VOID METHODS
-    // VOID METHODS
+// NON-VOID METHODS
+// VOID METHODS
 #pragma endregion
 
 #pragma region Private Constructors
-    // DEFAULT CONSTRUCTOR
-    // $safeitemname$ (void);
+// DEFAULT CONSTRUCTOR
+// $safeitemname$ (void);
 #pragma endregion
 
 #pragma region Private Virtual Methods
-    // PURE VIRTUAL METHODS
-    // VIRTUAL METHODS
+// PURE VIRTUAL METHODS
+// VIRTUAL METHODS
 #pragma endregion
 
 #pragma region Private Non-virtual Methods
-    // NON-VOID METHODS
-    // VOID METHODS
+// NON-VOID METHODS
+// VOID METHODS
 #pragma endregion

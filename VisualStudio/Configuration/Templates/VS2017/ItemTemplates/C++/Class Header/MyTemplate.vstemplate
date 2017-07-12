@@ -1,6 +1,6 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <DefaultName>Class Header.hpp</DefaultName>
+    <DefaultName>Class.hpp</DefaultName>
     <Name>Class Header</Name>
     <Description>Default header for standard classes</Description>
     <ProjectType>VC</ProjectType>

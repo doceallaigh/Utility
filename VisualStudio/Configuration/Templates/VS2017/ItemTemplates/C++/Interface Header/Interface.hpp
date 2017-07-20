@@ -23,5 +23,8 @@ public:
 #pragma region Public Virtual Methods
     // PURE VIRTUAL METHODS
 #pragma endregion
+
+protected:
+    virtual ~$safeitemname$ () = default;
 };
 #endif // !$safeitemname$_hpp

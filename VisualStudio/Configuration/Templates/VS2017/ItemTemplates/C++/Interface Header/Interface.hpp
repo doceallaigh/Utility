@@ -5,7 +5,6 @@
 
 #pragma once
 
-// INCLUDES
 #pragma region Library Includes
 #pragma endregion
 
@@ -14,6 +13,10 @@
 
 #ifndef $safeitemname$_hpp
 #define $safeitemname$_hpp
+
+#pragma region Forward Declarations
+#pragma endregion
+
 class $safeitemname$ 
 {
 public:

@@ -17,6 +17,9 @@
 #pragma region Forward Declarations
 #pragma endregion
 
+#pragma region Type Definitions
+#pragma endregion
+
 class $safeitemname$ 
 {
 public:

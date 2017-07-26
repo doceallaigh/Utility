@@ -23,11 +23,11 @@
 class $safeitemname$ 
 {
 public:
-#pragma region Public Virtual Methods
-    // PURE VIRTUAL METHODS
+#pragma region Destructor
+    virtual ~$safeitemname$ () = default;
 #pragma endregion
 
-protected:
-    virtual ~$safeitemname$ () = default;
+#pragma region Public Methods
+#pragma endregion
 };
 #endif // !$safeitemname$_hpp

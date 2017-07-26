@@ -6,9 +6,20 @@
 #include "../Header/$safeitemname$.hpp"
 #pragma endregion
 
+#pragma region Operators
+// COPY ASSIGNEMENT OPERATOR
+// $safeitemname$& $safeitemname$::operator= (const $safeitemname$ &original) { }
+
+// MOVE ASSIGNEMENT OPERATOR
+// $safeitemname$& $safeitemname$::operator= ($safeitemname$ &&original) noexcept { }
+#pragma endregion
+
 #pragma region Public Constructors & Destructor
 // DEFAULT CONSTRUCTOR
 // $safeitemname$::$safeitemname$ (void) { }
+
+// CUSTOM CONSTRUCTORS
+// $safeitemname$ (T ... args) { }
 
 // COPY CONSTRUCTOR
 // $safeitemname$::$safeitemname$ (const $safeitemname$ &original) { }
@@ -20,45 +31,25 @@
 // $safeitemname$::~$safeitemname$ (void) noexcept { }
 #pragma endregion
 
-#pragma region Operators
-// COPY ASSIGNEMENT OPERATOR
-// $safeitemname$& $safeitemname$::operator= (const $safeitemname$ &original) { }
-
-// MOVE ASSIGNEMENT OPERATOR
-// $safeitemname$& $safeitemname$::operator= ($safeitemname$ &&original) noexcept { }
-#pragma endregion
-
-#pragma region Public Virtual Methods
-// PURE VIRTUAL METHODS
-// VIRTUAL METHODS
-#pragma endregion
-
-#pragma region Public Non-virtual Methods
-// NON-VOID METHODS
-// VOID METHODS
-#pragma endregion
-
-#pragma region Protected Virtual Methods
-// PURE VIRTUAL METHODS
-// VIRTUAL METHODS
-#pragma endregion
-
-#pragma region Protected Non-virtual Methods
-// NON-VOID METHODS
-// VOID METHODS
-#pragma endregion
-
 #pragma region Private Constructors
 // DEFAULT CONSTRUCTOR
-// $safeitemname$ (void);
+// $safeitemname$ (void) { }
+
+// CUSTOM CONSTRUCTORS
+// $safeitemname$ (T ... args) { }
 #pragma endregion
 
-#pragma region Private Virtual Methods
+#pragma region Public Methods
 // PURE VIRTUAL METHODS
 // VIRTUAL METHODS
+// NON-VIRTUAL METHODS
 #pragma endregion
 
-#pragma region Private Non-virtual Methods
-// NON-VOID METHODS
-// VOID METHODS
+#pragma region Protected Methods
+// PURE VIRTUAL METHODS
+// VIRTUAL METHODS
+// NON-VIRTUAL METHODS
+#pragma endregion
+
+#pragma region Private Methods
 #pragma endregion

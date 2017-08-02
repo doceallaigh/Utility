@@ -24,7 +24,7 @@ class $safeitemname$
 {
 public:
 #pragma region Destructor
-    virtual ~$safeitemname$ () = default;
+    virtual ~$safeitemname$(void) = default;
 #pragma endregion
 
 #pragma region Public Methods

@@ -11,9 +11,6 @@
 #pragma region Local Includes
 #pragma endregion
 
-#ifndef $safeitemname$_hpp
-#define $safeitemname$_hpp
-
 #pragma region Forward Declarations
 #pragma endregion
 
@@ -99,4 +96,3 @@ private:
     // PRIMITIVES
 #pragma endregion
 };
-#endif // !$safeitemname$_hpp

@@ -11,9 +11,6 @@
 #pragma region Local Includes
 #pragma endregion
 
-#ifndef $safeitemname$_hpp
-#define $safeitemname$_hpp
-
 #pragma region Forward Declarations
 #pragma endregion
 
@@ -30,4 +27,3 @@ public:
 #pragma region Public Methods
 #pragma endregion
 };
-#endif // !$safeitemname$_hpp

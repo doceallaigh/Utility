@@ -1,8 +1,3 @@
-/* $safeitemname$.hpp
- * Class description:
- *     <$safeitemname$ description goes here>
- * * */
-
 #pragma once
 
 #pragma region Library Includes
@@ -17,55 +12,55 @@
 #pragma region Type Definitions
 #pragma endregion
 
+/*! \brief <Brief description goes here>
+ * 
+ * <Detailed description goes here>
+ * */
 class $safeitemname$ 
 {
 public:
 #pragma region Operators
-    // COPY ASSIGNEMENT OPERATOR
+    //! \cond \brief Copy assignment operator \endcond
     // $safeitemname$& operator= (const $safeitemname$ &original);
 
-    // MOVE ASSIGNEMENT OPERATOR
+    //! \cond \brief Move assignment operator \endcond
     // $safeitemname$& operator= ($safeitemname$ &&original) noexcept;
 #pragma endregion
 
-#pragma region Public Constructors & Destructor
-    // DEFAULT CONSTRUCTOR
-    // $safeitemname$ (void);
-
-    // CUSTOM CONSTRUCTORS
+#pragma region Custom Constructors
+    /*! \cond \brief <Brief description goes here> \endcond
+    *
+    * \cond \param[in] <Parameter description goes here> \endcond
+    * */
     // $safeitemname$ (T ... args);
+#pragma endregion
 
-    // COPY CONSTRUCTOR
-    // $safeitemname$ (const $safeitemname$ &original);
+#pragma region Standard Constructors & Destructor
+    //! \brief Default Constructor
+    $safeitemname$(void) = default;
 
-    // MOVE CONSTRUCTOR
-    // $safeitemname$ (const $safeitemname$ &&original) noexcept;
+    //! \brief Copy Constructor
+    $safeitemname$(const $safeitemname$ &original) = default;
 
-    // DESTRUCTOR
-    // virtual ~$safeitemname$ (void) noexcept;
+    //! \brief Move Constructor
+    $safeitemname$(const $safeitemname$ &&original) noexcept = default;
+
+    //! \brief Destructor
+    virtual ~$safeitemname$(void) noexcept = default;
 #pragma endregion
 
 private:
 #pragma region Private Constructors
-    // DEFAULT CONSTRUCTOR
-    // $safeitemname$ (void);
-
-    // CUSTOM CONSTRUCTORS
-    // $safeitemname$ (T ... args);
+    //! \cond \brief Private Default Constructor \endcond
+    // $safeitemname$(void) = default;
 #pragma endregion
 
 public:
 #pragma region Public Methods
-    // PURE VIRTUAL METHODS
-    // VIRTUAL METHODS
-    // NON-VIRTUAL METHODS
 #pragma endregion
 
 protected:
 #pragma region Protected Methods
-    // PURE VIRTUAL METHODS
-    // VIRTUAL METHODS
-    // NON-VIRTUAL METHODS
 #pragma endregion
 
 private:
@@ -74,25 +69,13 @@ private:
 
 public:
 #pragma region Public Fields
-    // SERVICES
-    // COLLECTIONS
-    // OBJECTS
-    // PRIMITIVES
 #pragma endregion
 
 protected:
 #pragma region Protected Fields
-    // SERVICES
-    // COLLECTIONS
-    // OBJECTS
-    // PRIMITIVES
 #pragma endregion
 
 private:
 #pragma region Private Fields
-    // SERVICES
-    // COLLECTIONS
-    // OBJECTS
-    // PRIMITIVES
 #pragma endregion
 };

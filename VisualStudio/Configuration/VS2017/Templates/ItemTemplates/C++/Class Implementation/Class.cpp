@@ -1,4 +1,3 @@
-// INCLUDES
 #pragma region Library Includes
 #pragma endregion
 
@@ -7,6 +6,9 @@
 #pragma endregion
 
 #pragma region Constants
+#pragma endregion
+
+#pragma region Static Fields
 #pragma endregion
 
 #pragma region Operators

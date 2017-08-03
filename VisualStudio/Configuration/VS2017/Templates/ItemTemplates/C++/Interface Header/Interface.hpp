@@ -12,10 +12,11 @@
 #pragma region Type Definitions
 #pragma endregion
 
-/*! \brief <Brief description goes here>
- *
- * <Detailed description goes here>
- * */
+/*! \brief Defines an API responsible for <declare responsibility here>
+*
+* In addition to any rules defined below, implementations of this API are expected to uphold the following promise(s):
+*     1. <Enumerate contract promises here>
+* */
 class $safeitemname$ 
 {
 public:

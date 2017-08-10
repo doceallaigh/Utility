@@ -43,7 +43,7 @@ public:
     $safeitemname$(const $safeitemname$ &original) = default;
 
     //! \brief Move Constructor
-    $safeitemname$(const $safeitemname$ &&original) noexcept = default;
+    // $safeitemname$(const $safeitemname$ &&original) noexcept = default;
 
     //! \brief Destructor
     virtual ~$safeitemname$(void) noexcept = default;

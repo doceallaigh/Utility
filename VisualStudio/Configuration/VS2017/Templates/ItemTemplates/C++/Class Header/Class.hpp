@@ -18,6 +18,9 @@
  * */
 class $safeitemname$ 
 {
+#pragma region Class Assertions
+#pragma endregion
+
 public:
 #pragma region Operators
     //! \cond \brief Copy assignment operator \endcond
